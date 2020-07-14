@@ -49,5 +49,5 @@ dependencyManagement {
 }
 
 bootJar {
-  mainClassName = 'com.epam.yoke.notify.YokeNotifyApplication'
+  mainClassName = 'com.epam.yoke.attender.AttenderApplication'
 }
