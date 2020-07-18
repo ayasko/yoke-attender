@@ -28,7 +28,10 @@ dependencies {
   implementation 'org.springframework.boot:spring-boot-starter-web'
   implementation 'org.springframework.cloud:spring-cloud-starter-config'
   implementation 'org.springframework.cloud:spring-cloud-starter-netflix-eureka-client'
-  
+  implementation 'org.springframework.cloud:spring-cloud-stream'
+  implementation 'org.springframework.cloud:spring-cloud-stream-binder-kafka'
+  implementation 'org.springframework.retry:spring-retry'
+    
   implementation 'org.postgresql:postgresql'
   implementation group: 'org.mapstruct', name: 'mapstruct', version: "${project.property("mapstruct.version")}"
 
